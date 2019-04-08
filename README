@@ -2,7 +2,7 @@ Root Sercomm VD625
 
 - attivare le condivisone usb inserendo una chiavetta formatta in fat32 con dentro il file runme:
 
-    runme.conf
+    runme
 
     #!/bin/sh
     exec > /mnt/shares/USB2FlashStorage/Partition1/it_worked 2>&1
