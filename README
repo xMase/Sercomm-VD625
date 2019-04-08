@@ -19,7 +19,7 @@ Root Sercomm VD625
 
 curl -X POST -i 'http://192.168.1.1/data/settings_content_sharing_device.json?_=1551786266690&csrf_token=HK08CC1C89JW113A2638' --data 'sharing_device=[{"device_id":"1","root_folder":"/","ns_content_sharing_enable":"1","ns_require_username_password":"0","ns_user_id":"1","ns_share_all_folders":"0","ns_share_folder_data":"1|root|../../../:0|Partition1|:"}]'
 
-- una volta fatto ciò disattivare e riattivare la condivisione usb dalla webgui del router per applciare le modifiche
+- una volta fatto ciò disattivare e riattivare la condivisione usb dalla webgui del router per applicare le modifiche
 
 - andiamo con dolphin sulla cartella appena condivisa (se su windows andiamo con condivisione di rete)
 
