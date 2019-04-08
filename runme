@@ -1,0 +1,9 @@
+#!/bin/sh
+exec > /mnt/shares/USB2FlashStorage/Partition1/it_worked 2>&1
+set -x
+ps
+date
+iptables -D INPUT -i ! br0 -p tcp --dport 7777 -j DROP >/dev/null 2>&1
+iptables -I INPUT -i ! br0 -p tcp --dport 7777 -j DROP
+/bin/telnetd -F -p 7777 -l /bin/sh&
+ 
