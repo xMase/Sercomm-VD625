@@ -103,3 +103,8 @@ SercommVD625.iso Telecom Italia_VD625_AGSOT_1.0.8.tar/Telecom Italia_VD625_AGSOT
 AGSOT_1.0.8.img => **to extract the router upgrade image first use sercomm_fwutils-master and than python jefferson to extract fs**
 
 To view the router configuration use the command **"cmld_client get_node Device."**.
+
+Contribute code
+===============
+
+If you have any **ideas**/**solutions**/**improvements** to be included in this project, **feel free to submit a pull request**.
